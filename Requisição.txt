@@ -1,0 +1,53 @@
+Requisição HTTP
+
+URL: https://pokeapi.co/api/v2/pokemon/${id}
+    ${IP = endereço}/${áth = caminho de identificação do recurso}
+
+    IP: https://pokeapi.co
+    http://127.0.0.1:3000
+
+    Path: /api/v2/pokemon
+
+
+Request Method: GET | POST | PUT | DELETE | PATCH  
+GET: Buscar
+POST: Inserir
+PUT: Atualizar
+DELETE: Remover
+Padrões Rest
+
+Query String = Descrição de Busca
+Filtro que está passando para a api
+?type=grass
+&name=i
+
+exemplo: type=grass&name=i
+As duas formas inicias de passagem de parâmetor para API são:
+Inserir no Path
+Através da Query String
+
+
+Request Headers - Transmitir coisas para o Servidor
+Response Headers - Receber coisas para o Servidor
+Headers - Configuração da nossa Requisição
+
+Credenciais de autenticação são passadas no Header
+
+Request e Response Headers são a configuração da nossa API
+
+BODY - Corpo da Requisição
+
+Request BODY
+{
+    "name"; "Teste"
+}
+
+STATUS CODE - um número que indica o que aconteceu com a requisição.
+200 até 299 - sucesso
+300 até 399 - redirect
+400 até 499 - erro por parte do cliente
+500 até 599 - erro interno do Servidor
+
+Response Headers
+
+Response BODY
